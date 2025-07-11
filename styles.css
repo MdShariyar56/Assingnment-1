@@ -43,9 +43,14 @@ background-color: green;
 .Action{
   display: flex;
   justify-content: space-around;
-  padding: 20px;
-  padding-bottom: 250px;
-  margin-top: 50px;
+  padding: 10px;
+  margin-top: 30px;
+
+}
+.action-text{
+        font-size: 20px;
+    text-align: center;
+    padding-bottom: 150px;
 
 }
 .action-img{
@@ -55,15 +60,17 @@ background-color: green;
 }
 
 .container {
-  width: 800px;
+  width: 90%;
+  max-width: 800px;
   height: 150px;
-  background-color:aquamarine;
+  background-color: aquamarine;
   border-radius: 16px;
-  padding: 20px 30px;
-  margin: -300px 300px 100px 300px;
+  padding: 40px 30px;
+  margin: 0 auto 30px; 
   text-align: center;
   box-shadow: 0 10px 20px rgba(0,0,0,0.05);
 }
+
 
 .container h2 {
   font-size: 30px;
@@ -86,6 +93,67 @@ background-color: green;
   margin-top: 5px;
   color: #666;
   font-size: 14px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.testimonials {
+  background-color: #f4f7fb;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.testimonial {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: start;
+}
+
+.testimonial h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.testimonial p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.reviewer p {
+  display: flex;
+  align-items: center;
+  gap:15px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.reviewer p:first-child {
+  font-weight: bold;
+}
+.reviewer img{
+   
+    border-radius: 50%;
 }
 .ready{
    text-align: center;
@@ -227,3 +295,15 @@ background-color: green;
 .footer .menu a:hover {
   color: green;
 }
+
+
+
+
+
+
+
+
+
+
+
+
