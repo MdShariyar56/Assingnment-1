@@ -82,3 +82,55 @@ nav {
   color: #666;
   font-size: 14px;
 }
+
+
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 10px;
+  
+}
+
+.contact-text h1 {
+  font-size: 48px;
+  margin: 120px;
+  color: #111;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 300px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  resize: none;
+}
+
+.contact-form button {
+  background-color: #4f4a9f;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #190e92;
+}
