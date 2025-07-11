@@ -87,6 +87,48 @@ background-color: green;
   color: #666;
   font-size: 14px;
 }
+.ready{
+   text-align: center;
+   margin-bottom: 70px;
+  
+}
+
+.ready-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  text-align: center;
+  padding: 20px;
+}
+
+.ready-text h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.ready-text h5 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.nav-text-3 {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ready-image img {
+  width: 800px;
+  height: 300px;
+  border-radius: 20px; 
+  margin-top: 10px;
+}
 
 
 .contact-container {
