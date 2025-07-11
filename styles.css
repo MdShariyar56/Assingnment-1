@@ -20,7 +20,7 @@ nav {
 .nav-text-2{
     background-color: blue;
      color: white;
-     font-size: 28px;
+     font-size: 15px;
      padding: 10px 12px;
      font-weight: bold;
      border-radius:10px;
@@ -34,4 +34,51 @@ nav {
     padding-bottom: 250px;
   
   
+}
+.Action{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  padding-bottom: 250px;
+  margin-top: 50px;
+
+}
+.action-img{
+     width: 300px;
+     height: 200px;
+     border-radius: 10px;
+}
+
+.container {
+  width: 800px;
+  height: 150px;
+  background-color:aquamarine;
+  border-radius: 16px;
+  padding: 20px 30px;
+  margin: -300px 300px 100px 300px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.container h2 {
+  font-size: 30px;
+  color: #111;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.stat-item h1 {
+  color: #4f46e5;
+  font-size: 36px;
+  margin: 0;
+}
+
+.stat-item p {
+  margin-top: 5px;
+  color: #666;
+  font-size: 14px;
 }
